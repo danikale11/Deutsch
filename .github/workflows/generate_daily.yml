@@ -1,0 +1,41 @@
+name: Napi feladatsor generalasa
+
+on:
+  schedule:
+    # 03:00 UTC ~ hajnal 4-5 ora Europa/Budapest idozonaban (CET/CEST).
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-daily
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python beallitasa
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Napi feladatsor generalasa
+        run: python3 scripts/generate_daily.py
+
+      - name: Valtozasok commitolasa
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data/daily/today.json web/data/state/usage_state.json
+          if git diff --cached --quiet; then
+            echo "Nincs valtozas, nincs mit commitolni."
+          else
+            git commit -m "Napi feladatsor automatikus generalasa"
+            git push
+          fi
