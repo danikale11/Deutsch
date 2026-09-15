@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WEB_DATA_DIR = REPO_ROOT / "web" / "data"
+WEB_DATA_DIR = REPO_ROOT / "docs" / "data"
 DB_FILES = [
     REPO_ROOT / "konyv_adatbazis.json",
     REPO_ROOT / "konyv_adatbazis_2.json",

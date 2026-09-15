@@ -1,0 +1,214 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T13:12:22.060521+02:00",
+  "tasks": {
+    "hu_de_sentences": [
+      {
+        "id": "s088",
+        "direction": "hu_de",
+        "prompt": "Az egyik szék sajnos tönkrement.",
+        "solution": "Ein Stuhl ist leider kaputtgegangen.",
+        "explanation": "Ez egy Wechselpräposition (in, an, auf, über, unter, vor, hinter, neben, zwischen), amely Akkusativot vagy Dativot is vonzhat: mozgást, irányt kifejező 'hova?' kérdésre Akkusativ jár (pl. Ich gehe in die Küche), helyhez kötött 'hol?' kérdésre Dativ (pl. Ich bin in der Küche).",
+        "topic": "Wohnen und Möbel",
+        "chapter_title": "Wechselpräpositionen, Wohnen und Möbel",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s193",
+        "direction": "hu_de",
+        "prompt": "Add ide, kérlek, egy pillanatra a telefonodat.",
+        "solution": "Gib mir bitte kurz dein Telefon.",
+        "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+        "topic": "Grundverben",
+        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s341",
+        "direction": "hu_de",
+        "prompt": "Készül a vizsgára.",
+        "solution": "Sie bereitet sich auf die Prüfung vor.",
+        "explanation": "Ez egy visszaható ige (reflexives Verb): a cselekvés visszahat az alanyra, ezért a mondatban egy visszaható névmás (mich, dich, sich, uns, euch, sich) is szerepel, ami a legtöbb esetben tárgyesetben áll.",
+        "topic": "Reflexive Verben",
+        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s760",
+        "direction": "hu_de",
+        "prompt": "Az ügyfél sajnos elutasította az ajánlatunkat.",
+        "solution": "Der Kunde hat unser Angebot leider abgelehnt.",
+        "explanation": "Ez egy elváló igekötős ige (trennbares Verb): kijelentő mondatban az igekötő leválik a ragozott igéről és a mondat végére kerül (pl. abfahren -> Der Zug fährt um acht ab), Perfektben pedig a `ge-` képző az igekötő és a szótő közé kerül.",
+        "topic": "Trennbare Verben",
+        "chapter_title": "Trennbare Verben, Verben mit Präposition",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "s437",
+        "direction": "hu_de",
+        "prompt": "A számok azonosak a tavalyi évvel.",
+        "solution": "Die Zahlen sind identisch mit dem Vorjahr.",
+        "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+        "topic": "Adjektive",
+        "chapter_title": "Adjektive, Personenbeschreibung",
+        "source": "konyv_adatbazis"
+      }
+    ],
+    "de_hu_sentences": [
+      {
+        "id": "s601",
+        "direction": "de_hu",
+        "prompt": "Wann könnten wir die Wohnung besichtigen?",
+        "solution": "Mikor tudnánk megtekinteni a lakást?",
+        "explanation": "Ez egy Wechselpräposition (in, an, auf, über, unter, vor, hinter, neben, zwischen), amely Akkusativot vagy Dativot is vonzhat: mozgást, irányt kifejező 'hova?' kérdésre Akkusativ jár (pl. Ich gehe in die Küche), helyhez kötött 'hol?' kérdésre Dativ (pl. Ich bin in der Küche).",
+        "topic": "Wohnen",
+        "chapter_title": "Wechselpräpositionen, Wohnen und Möbel",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s401",
+        "direction": "de_hu",
+        "prompt": "Am Sonntag bin ich gern ein bisschen faul.",
+        "solution": "Vasárnap szívesen vagyok kicsit lusta.",
+        "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+        "topic": "Adjektive",
+        "chapter_title": "Adjektive, Personenbeschreibung",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s050",
+        "direction": "de_hu",
+        "prompt": "Das rechte Bein ist stark geschwollen.",
+        "solution": "A jobb lába erősen megdagadt.",
+        "explanation": "Ez a mondat a(z) \"Beim Arzt, Körperteile\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+        "topic": "Körper und Gesundheit",
+        "chapter_title": "Beim Arzt, Körperteile",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s1056",
+        "direction": "de_hu",
+        "prompt": "Sehr geehrte Damen und Herren, ich wende mich mit einer Bitte an Sie.",
+        "solution": "Tisztelt Hölgyem/Uram! Egy kéréssel fordulok Önökhöz.",
+        "explanation": "Ez a mondat birtokos esetet (Genitiv) igényel: a Genitiv fejezi ki a birtoklást vagy egyes elöljárószók (wegen, trotz, während, innerhalb) vonzatát. A hím- és semlegesnemű főnevek `-s`/`-es` végződést kapnak, a névelő der/das -> des, die -> der.",
+        "topic": "Redemittel",
+        "chapter_title": "lassen, Genitivpräpositionen, offizieller Brief, Meinungsäußerung",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "s843",
+        "direction": "de_hu",
+        "prompt": "Von der Änderung habe ich erst gestern erfahren.",
+        "solution": "A változásról csak tegnap értesültem.",
+        "explanation": "Ez egy vonzatos ige (Verb mit Präposition): az ige jelentéséhez egy meghatározott elöljárószó és eset (Akkusativ vagy Dativ) tartozik rögzített formában, ezt a párost egységként érdemes megtanulni.",
+        "topic": "Verben mit Präposition",
+        "chapter_title": "Trennbare Verben, Verben mit Präposition",
+        "source": "konyv_adatbazis_2"
+      }
+    ],
+    "hu_de_vocab": [
+      {
+        "id": "v227",
+        "direction": "hu_de",
+        "prompt": "keresni",
+        "solution": "suchen",
+        "note": "Alapalakok (Präteritum / Perfekt): suchte / hat gesucht.",
+        "topic": "Grundverben",
+        "pos": "Verb",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v647",
+        "direction": "hu_de",
+        "prompt": "felkínálni",
+        "solution": "anbieten",
+        "note": "Alapalakok (Präteritum / Perfekt): bot an / hat angeboten. Elváló igekötős ige: kijelentő mondatban az igekötő a mondat végére kerül.",
+        "topic": "Trennbare Verben",
+        "pos": "Trennbares Verb",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v763",
+        "direction": "hu_de",
+        "prompt": "nélkül",
+        "solution": "ohne + A",
+        "note": null,
+        "topic": "Präpositionen",
+        "pos": "Präposition",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v082",
+        "direction": "hu_de",
+        "prompt": "kert",
+        "solution": "der Garten",
+        "note": "Többes száma: die Gärten.",
+        "topic": "Wohnen und Möbel",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v694",
+        "direction": "hu_de",
+        "prompt": "igyekezni vmiért",
+        "solution": "sich bemühen (um + A)",
+        "note": "Rögzített vonzat: um + A. Visszaható ige: használatához visszaható névmás (mich, dich, sich...) szükséges.",
+        "topic": "Reflexive Verben",
+        "pos": "Reflexives Verb",
+        "source": "konyv_adatbazis_2"
+      }
+    ],
+    "de_hu_vocab": [
+      {
+        "id": "v907",
+        "direction": "de_hu",
+        "prompt": "stolz",
+        "solution": "büszke",
+        "note": null,
+        "topic": "Adjektive",
+        "pos": "Adjektiv",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v486",
+        "direction": "de_hu",
+        "prompt": "natürlich",
+        "solution": "természetesen",
+        "note": null,
+        "topic": "Adverbien und Konnektoren",
+        "pos": "Adverb/Konnektor",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v797",
+        "direction": "de_hu",
+        "prompt": "sobald",
+        "solution": "mihelyt",
+        "note": null,
+        "topic": "Konnektoren und Satzbau",
+        "pos": "Konnektor",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v203",
+        "direction": "de_hu",
+        "prompt": "lachen",
+        "solution": "nevetni",
+        "note": "Alapalakok (Präteritum / Perfekt): lachte / hat gelacht.",
+        "topic": "Grundverben",
+        "pos": "Verb",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v635",
+        "direction": "de_hu",
+        "prompt": "der Architekt",
+        "solution": "építész",
+        "note": "Gyenge főnév (n-Deklination), ragozott alakjai: den/dem/des Architekten.",
+        "topic": "Schwache Nomen",
+        "pos": "Nomen (n-Deklination)",
+        "source": "konyv_adatbazis_2"
+      }
+    ]
+  }
+}

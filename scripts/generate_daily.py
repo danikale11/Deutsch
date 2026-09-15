@@ -25,7 +25,7 @@ from lib import pool as pool_lib  # noqa: E402
 from lib import explanations  # noqa: E402
 
 TIMEZONE = ZoneInfo("Europe/Budapest")
-WEB_DATA_DIR = REPO_ROOT / "web" / "data"
+WEB_DATA_DIR = REPO_ROOT / "docs" / "data"
 STATE_PATH = WEB_DATA_DIR / "state" / "usage_state.json"
 DAILY_PATH = WEB_DATA_DIR / "daily" / "today.json"
 HISTORY_INDEX_PATH = WEB_DATA_DIR / "history_index.json"

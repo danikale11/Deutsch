@@ -26,7 +26,7 @@ scripts/generate_daily.py                       napi feladatsor generálása
 scripts/build_db.py                              history -> SQLite + összesítő
 scripts/lib/pool.py                              adatbázis-egyesítés, ismétlés-elkerülés
 scripts/lib/explanations.py                      szabály-alapú nyelvtani magyarázatok
-web/                                              a statikus frontend (ide mutat a GitHub Pages)
+docs/                                             a statikus frontend (ide mutat a GitHub Pages)
   index.html, app.js, style.css
   data/
     daily/today.json           a mai feladatsor (a cron írja felül minden hajnalban)
@@ -47,7 +47,7 @@ eredményt a `main` ágra.
 
 A repo **Settings → Pages** menüjében:
 - Source: "Deploy from a branch"
-- Branch: `main`, mappa: `/web`
+- Branch: `main`, mappa: `/docs`
 
 Ezután az oldal elérhető lesz a `https://<felhasználónév>.github.io/<repo>/` címen.
 
@@ -74,10 +74,10 @@ Claude Code Routine végzi, ami minden hajnalban (kb. 03:00 UTC, azaz
 
 1. `git pull` a `main` ágon
 2. `python3 scripts/build_db.py` – az előző napi eredményekből frissíti a
-   `web/data/app.db` SQLite adatbázist és a `web/data/history_index.json`
+   `docs/data/app.db` SQLite adatbázist és a `docs/data/history_index.json`
    összesítőt
 3. `python3 scripts/generate_daily.py` – legenerálja a következő napi
-   feladatsort (`web/data/daily/today.json`)
+   feladatsort (`docs/data/daily/today.json`)
 4. commit + push a `main` ágra
 
 Ehhez nincs szükség GitHub Actions-re: a Routine a Claude Code
@@ -91,7 +91,7 @@ kikapcsolás) a Claude Code felületén, a Routines listában tudod kezelni.
    egy automatikus javaslat (Helyes / Részben / Hibás). Ha a fordításod
    helyesen eltér a tárolt megoldástól, kattints a megfelelő gombra a
    javaslat felülbírálásához.
-3. "Eredmény mentése" → a mai eredmény bekerül a `web/data/history/` alá.
+3. "Eredmény mentése" → a mai eredmény bekerül a `docs/data/history/` alá.
    Az összesítő (SQLite + history_index.json) a következő hajnali Routine
    futáskor frissül automatikusan.
 4. Az "Előzmények" fülön visszanézhető minden korábbi nap, illetve az
@@ -113,6 +113,6 @@ kikapcsolás) a Claude Code felületén, a Routines listában tudod kezelni.
 
 ## Adatbázis lekérdezése
 
-A `web/data/app.db` egy szabványos SQLite fájl (`attempts`, `answers`
+A `docs/data/app.db` egy szabványos SQLite fájl (`attempts`, `answers`
 táblákkal), bármilyen SQLite kliensben (pl. DB Browser for SQLite)
 megnyitható és lekérdezhető részletesebb statisztikákhoz.

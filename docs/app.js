@@ -35,12 +35,12 @@ function base64ToUtf8(b64) {
    CDN-en at megy. PAT nelkul (meg publikus repo eseten is) mukodhet,
    csak alacsonyabb rate-limittel; ha nincs PAT es a hivas hibazik,
    visszaesunk a statikus relativ fetch-re. */
-/* A frontend mindig a web/ mappahoz kepest relativ utakkal dolgozik
+/* A frontend mindig a docs/ mappahoz kepest relativ utakkal dolgozik
    (pl. "data/daily/today.json"), mert a statikus fetch fallback is
    ehhez a mappahoz kepest ertelmezodik. A GitHub API-hoz viszont a
-   teljes repo-relativ ut kell (a "web/" elotaggal). */
+   teljes repo-relativ ut kell (a "docs/" elotaggal). */
 function repoPath(webRelativePath) {
-  return `web/${webRelativePath}`;
+  return `docs/${webRelativePath}`;
 }
 
 async function githubGetFile(path) {

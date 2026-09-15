@@ -16,7 +16,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-WEB_DATA_DIR = REPO_ROOT / "web" / "data"
+WEB_DATA_DIR = REPO_ROOT / "docs" / "data"
 HISTORY_DIR = WEB_DATA_DIR / "history"
 DB_PATH = WEB_DATA_DIR / "app.db"
 HISTORY_INDEX_PATH = WEB_DATA_DIR / "history_index.json"
