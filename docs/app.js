@@ -519,16 +519,36 @@ async function loadHistory() {
 
 /* ---------- "Beallitasok" ful ---------- */
 
+function buildPatCreateUrl(repo) {
+  const owner = (repo || Settings.repo).split("/")[0];
+  const params = new URLSearchParams({
+    name: "Deutsch napi gyakorlo",
+    description: "Deutsch napi gyakorlo app - eredmenyek mentese",
+    target_name: owner,
+    expires_in: "90",
+    contents: "write",
+  });
+  return `https://github.com/settings/personal-access-tokens/new?${params.toString()}`;
+}
+
+function updatePatCreateLink() {
+  const repo = document.getElementById("settings-repo").value.trim();
+  document.getElementById("pat-create-link").href = buildPatCreateUrl(repo);
+}
+
 function initSettingsTab() {
   document.getElementById("settings-repo").value = Settings.repo;
   document.getElementById("settings-branch").value = Settings.branch;
   document.getElementById("settings-pat").value = Settings.pat;
+  updatePatCreateLink();
+  document.getElementById("settings-repo").addEventListener("input", updatePatCreateLink);
 
   document.getElementById("settings-save").addEventListener("click", () => {
     const repo = document.getElementById("settings-repo").value.trim();
     const branch = document.getElementById("settings-branch").value.trim();
     const pat = document.getElementById("settings-pat").value.trim();
     Settings.save(repo, branch, pat);
+    updatePatCreateLink();
     document.getElementById("settings-status").textContent = "Mentve.";
   });
 

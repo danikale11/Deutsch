@@ -54,17 +54,22 @@ Ezután az oldal elérhető lesz a `https://<felhasználónév>.github.io/<repo>
 ### 2. GitHub Personal Access Token létrehozása
 
 A napi eredmények mentéséhez (és a legfrissebb előzmények olvasásához) a
-böngészőnek írási joga kell a repóhoz. Hozz létre egy **fine-grained
-personal access tokent**:
+böngészőnek írási joga kell a repóhoz. Ehhez a **Beállítások** fülön
+kattints a "Token létrehozása előre kitöltött űrlappal" linkre – ez egy
+olyan GitHub oldalt nyit meg, ahol a név, a leírás, a jogosultság
+(Contents: write) és a lejárat (90 nap) már ki van töltve. Már csak ennyi
+a dolgod:
 
-1. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token
-2. Repository access: csak ez az egy repó (`Deutsch`)
-3. Permissions: **Contents: Read and write**
-4. Lejárat: javasolt 90 nap (utána újra kell generálni)
+1. "Only select repositories" alatt válaszd ki a `Deutsch` repót
+2. "Generate token"
+3. Másold be a kapott tokent a Beállítások fülön a mezőbe, és mentsd el
 
-A tokent az alkalmazás **Beállítások** fülén add meg – csak a saját
-böngésződ localStorage-ában tárolódik, GitHube-on kívül sehova nem kerül.
-Ne oszd meg mással, és ne mentsd el közös/nyilvános gépen.
+(A linket kézzel is elérheted: GitHub → Settings → Developer settings →
+Personal access tokens → Fine-grained tokens → Generate new token.)
+
+A token csak a saját böngésződ localStorage-ában tárolódik, GitHube-on
+kívül sehova nem kerül. Ne oszd meg mással, és ne mentsd el közös/nyilvános
+gépen.
 
 ### 3. Hajnali automatizálás (Claude Code Routine)
 
