@@ -353,12 +353,93 @@ async function saveTodayResult() {
     await githubPutFile(path, record, `Napi eredmény mentése: ${dateStr} (attempt ${record.attempts.length})`);
 
     saveBtn.textContent = "Elmentve ✓";
-    showBanner(`Eredmény elmentve (${score.points}/${score.max} pont). Az előzmények lista rövidesen frissül.`, "ok");
+
+    let indexUpdated = true;
+    try {
+      await updateHistoryIndexAfterSave(dateStr, record);
+    } catch (err) {
+      indexUpdated = false;
+      console.warn("Előzmény-összesítő azonnali frissítése sikertelen:", err);
+    }
+    showBanner(
+      indexUpdated
+        ? `Eredmény elmentve (${score.points}/${score.max} pont). Az Előzmények fülön azonnal látható.`
+        : `Eredmény elmentve (${score.points}/${score.max} pont). Az Előzmények összesítő a következő hajnali frissítéskor lesz naprakész.`,
+      "ok"
+    );
   } catch (err) {
     saveBtn.disabled = false;
     saveBtn.textContent = "Eredmény mentése";
     showBanner(`Mentés sikertelen: ${err.message}`, "error");
   }
+}
+
+/* Azonnali (kliens-oldali) history_index.json frissites mentes utan, hogy
+   az Elozmenyek fül ne a kovetkezo hajnali Routine-futasra varjon. A teljes
+   ujraepitest (SQLite + topic_stats) tovabbra is a nightly Routine vegzi. */
+function toUTCDate(dateStr) {
+  return new Date(`${dateStr}T00:00:00Z`);
+}
+
+function computeStreakClientSide(daySet) {
+  if (!daySet.size) return 0;
+  const sortedDesc = [...daySet].sort().reverse();
+  const mostRecent = sortedDesc[0];
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const gapDays = Math.round((toUTCDate(todayStr) - toUTCDate(mostRecent)) / 86400000);
+  if (gapDays > 1) return 0;
+
+  let streak = 0;
+  const cursor = toUTCDate(mostRecent);
+  while (daySet.has(cursor.toISOString().slice(0, 10))) {
+    streak++;
+    cursor.setUTCDate(cursor.getUTCDate() - 1);
+  }
+  return streak;
+}
+
+async function updateHistoryIndexAfterSave(dateStr, record) {
+  let index;
+  try {
+    const existing = await githubGetFile("data/history_index.json");
+    index = existing.exists ? existing.data : null;
+  } catch (_) {
+    index = null;
+  }
+  if (!index) {
+    index = { days: [], topic_stats: {} };
+  }
+
+  const attempts = record.attempts;
+  const lastAttempt = attempts[attempts.length - 1];
+  const bestAttempt = attempts.reduce(
+    (best, a) => (!best || a.score.percent > best.score.percent ? a : best),
+    null
+  );
+
+  const days = (index.days || []).filter((d) => d.date !== dateStr);
+  days.push({
+    date: dateStr,
+    attempt_count: attempts.length,
+    last_score: lastAttempt.score,
+    best_score: bestAttempt.score,
+  });
+  days.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+
+  const daySet = new Set(days.map((d) => d.date));
+  const percents = days.map((d) => d.last_score?.percent).filter((p) => typeof p === "number");
+
+  const updatedIndex = {
+    ...index,
+    generated_at: new Date().toISOString().slice(0, 10),
+    days,
+    streak_days: computeStreakClientSide(daySet),
+    total_days_practiced: days.length,
+    total_attempts: days.reduce((s, d) => s + d.attempt_count, 0),
+    average_percent: percents.length ? percents.reduce((s, p) => s + p, 0) / percents.length : null,
+  };
+
+  await githubPutFile("data/history_index.json", updatedIndex, `Elozmeny-osszesito frissitese: ${dateStr}`);
 }
 
 function showBanner(text, kind) {
@@ -385,8 +466,25 @@ async function loadToday() {
     todayState.tasks = daily.tasks;
     meta.textContent = `${daily.date} — legenerálva: ${new Date(daily.generated_at).toLocaleString("hu-HU")}`;
     renderTodayTasks(daily.tasks);
+    checkExistingTodayResult(daily.date);
   } catch (err) {
     content.textContent = `Hiba a mai feladatsor betöltésekor: ${err.message}`;
+  }
+}
+
+async function checkExistingTodayResult(dateStr) {
+  try {
+    const existing = await readDataFile(todayHistoryPath(dateStr));
+    if (existing && existing.attempts && existing.attempts.length) {
+      const last = existing.attempts[existing.attempts.length - 1];
+      showBanner(
+        `Ma már mentettél egy próbálkozást (${last.score.points}/${last.score.max} pont, ` +
+          `${existing.attempts.length}. próbálkozás). Az alábbi kitöltés új próbálkozásként kerül mentésre.`,
+        "ok"
+      );
+    }
+  } catch (_) {
+    /* nincs meg mentett eredmeny mara, vagy nem sikerult ellenorizni - nem gond */
   }
 }
 

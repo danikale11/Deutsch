@@ -1,9 +1,90 @@
 {
   "generated_at": "2026-09-15",
-  "days": [],
-  "streak_days": 0,
-  "total_days_practiced": 0,
-  "total_attempts": 0,
-  "average_percent": null,
-  "topic_stats": {}
+  "days": [
+    {
+      "date": "2026-09-15",
+      "attempt_count": 1,
+      "last_score": {
+        "points": 13.5,
+        "max": 20,
+        "percent": 67.5
+      },
+      "best_score": {
+        "points": 13.5,
+        "max": 20,
+        "percent": 67.5
+      }
+    }
+  ],
+  "streak_days": 1,
+  "total_days_practiced": 1,
+  "total_attempts": 1,
+  "average_percent": 67.5,
+  "topic_stats": {
+    "Wohnen und Möbel": {
+      "attempts": 2,
+      "incorrect": 0.5,
+      "error_rate": 0.25
+    },
+    "Grundverben": {
+      "attempts": 3,
+      "incorrect": 0.5,
+      "error_rate": 0.16666666666666666
+    },
+    "Reflexive Verben": {
+      "attempts": 2,
+      "incorrect": 1.5,
+      "error_rate": 0.75
+    },
+    "Trennbare Verben": {
+      "attempts": 2,
+      "incorrect": 1.5,
+      "error_rate": 0.75
+    },
+    "Adjektive": {
+      "attempts": 3,
+      "incorrect": 1.0,
+      "error_rate": 0.3333333333333333
+    },
+    "Wohnen": {
+      "attempts": 1,
+      "incorrect": 0,
+      "error_rate": 0.0
+    },
+    "Körper und Gesundheit": {
+      "attempts": 1,
+      "incorrect": 0,
+      "error_rate": 0.0
+    },
+    "Redemittel": {
+      "attempts": 1,
+      "incorrect": 0,
+      "error_rate": 0.0
+    },
+    "Verben mit Präposition": {
+      "attempts": 1,
+      "incorrect": 0,
+      "error_rate": 0.0
+    },
+    "Präpositionen": {
+      "attempts": 1,
+      "incorrect": 0,
+      "error_rate": 0.0
+    },
+    "Adverbien und Konnektoren": {
+      "attempts": 1,
+      "incorrect": 0,
+      "error_rate": 0.0
+    },
+    "Konnektoren und Satzbau": {
+      "attempts": 1,
+      "incorrect": 1,
+      "error_rate": 1.0
+    },
+    "Schwache Nomen": {
+      "attempts": 1,
+      "incorrect": 0.5,
+      "error_rate": 0.5
+    }
+  }
 }
