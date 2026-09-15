@@ -1,0 +1,214 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T12:03:57.015465+02:00",
+  "tasks": {
+    "hu_de_sentences": [
+      {
+        "id": "s1155",
+        "direction": "hu_de",
+        "prompt": "Erre egyáltalán nem figyeltem.",
+        "solution": "Darauf hatte ich gar nicht geachtet.",
+        "explanation": "Ez egy névmási határozószó (Pronominaladverb, pl. darauf, damit, worüber): akkor használjuk elöljárószó + névmás helyett, ha a vonzat egy dologra (nem személyre) vonatkozik; kérdő alakja `wo(r)+elöljárószó`, mutató/visszautaló alakja `da(r)+elöljárószó`.",
+        "topic": "Pronominaladverb",
+        "chapter_title": "Reise, Hotel, Flughafen, Pronominaladverbien, Zeitangaben",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "s182",
+        "direction": "hu_de",
+        "prompt": "Az űrlaphoz szükségem van az aláírásodra.",
+        "solution": "Für das Formular brauche ich deine Unterschrift.",
+        "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+        "topic": "Grundverben",
+        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s671",
+        "direction": "hu_de",
+        "prompt": "Motorral gyorsabban ér be a városba.",
+        "solution": "Mit dem Motorrad ist er schneller in der Stadt.",
+        "explanation": "Ez a mondat a(z) \"Hobby und Freizeit, Wegbeschreibung, Verkehr, Präpositionen\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+        "topic": "Verkehr",
+        "chapter_title": "Hobby und Freizeit, Wegbeschreibung, Verkehr, Präpositionen",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "s626",
+        "direction": "hu_de",
+        "prompt": "Nem tudom, eljön-e még ma.",
+        "solution": "Ich weiß nicht, ob er heute noch kommt.",
+        "explanation": "Ez egy mellékmondat (Nebensatz): a mellékmondatot bevezető kötőszó (weil, dass, wenn, obwohl stb.) miatt a ragozott ige a mellékmondat végére kerül, nem a második helyre, mint a főmondatban.",
+        "topic": "Nebensatz",
+        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s1168",
+        "direction": "hu_de",
+        "prompt": "Ez a te esernyőd? Az enyém fekete.",
+        "solution": "Ist das dein Schirm? Meiner ist schwarz.",
+        "explanation": "Ez egy birtokos névmás (mein, dein, sein, ihr, unser, euer, ihr/Ihr): ragozása ugyanúgy a birtok nemétől/számától és mondatbeli esetétől függ, mint a határozatlan névelőé (ein-szavak).",
+        "topic": "Possessivpronomen",
+        "chapter_title": "Reise, Hotel, Flughafen, Pronominaladverbien, Zeitangaben",
+        "source": "konyv_adatbazis_2"
+      }
+    ],
+    "de_hu_sentences": [
+      {
+        "id": "s783",
+        "direction": "de_hu",
+        "prompt": "Nimm bitte die leeren Flaschen mit.",
+        "solution": "Vidd magaddal, kérlek, az üres üvegeket.",
+        "explanation": "Ez egy elváló igekötős ige (trennbares Verb): kijelentő mondatban az igekötő leválik a ragozott igéről és a mondat végére kerül (pl. abfahren -> Der Zug fährt um acht ab), Perfektben pedig a `ge-` képző az igekötő és a szótő közé kerül.",
+        "topic": "Trennbare Verben",
+        "chapter_title": "Trennbare Verben, Verben mit Präposition",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "s813",
+        "direction": "de_hu",
+        "prompt": "Im Büroalltag bewegt man sich einfach zu wenig.",
+        "solution": "Az irodai hétköznapokban egyszerűen túl keveset mozog az ember.",
+        "explanation": "Ez egy visszaható ige (reflexives Verb): a cselekvés visszahat az alanyra, ezért a mondatban egy visszaható névmás (mich, dich, sich, uns, euch, sich) is szerepel, ami a legtöbb esetben tárgyesetben áll.",
+        "topic": "Reflexive Verben",
+        "chapter_title": "Tagesablauf, Imperativ, reflexive Verben, schwache Nomen, Modalpartikeln",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "s345",
+        "direction": "de_hu",
+        "prompt": "Wir machen uns gleich nach dem Frühstück auf den Weg.",
+        "solution": "Rögtön reggeli után elindulunk.",
+        "explanation": "Ez egy visszaható ige (reflexives Verb): a cselekvés visszahat az alanyra, ezért a mondatban egy visszaható névmás (mich, dich, sich, uns, euch, sich) is szerepel, ami a legtöbb esetben tárgyesetben áll.",
+        "topic": "Reflexive Verben",
+        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s365",
+        "direction": "de_hu",
+        "prompt": "Fahr bitte langsamer, die Straße ist nass.",
+        "solution": "Vezess, kérlek, lassabban, nedves az út.",
+        "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+        "topic": "Adjektive",
+        "chapter_title": "Adjektive, Personenbeschreibung",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s145",
+        "direction": "de_hu",
+        "prompt": "Die Besprechung wurde auf Freitag verschoben.",
+        "solution": "A megbeszélést péntekre halasztották.",
+        "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+        "topic": "Alltag und Arbeit",
+        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
+        "source": "konyv_adatbazis"
+      }
+    ],
+    "hu_de_vocab": [
+      {
+        "id": "v024",
+        "direction": "hu_de",
+        "prompt": "gyümölcslé",
+        "solution": "der Saft",
+        "note": "Többes száma: die Säfte.",
+        "topic": "Essen und Trinken",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v926",
+        "direction": "hu_de",
+        "prompt": "attól függ",
+        "solution": "es kommt darauf an",
+        "note": null,
+        "topic": "Redemittel",
+        "pos": "Wendung",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v188",
+        "direction": "hu_de",
+        "prompt": "megmagyarázni",
+        "solution": "erklären",
+        "note": "Alapalakok (Präteritum / Perfekt): erklärte / hat erklärt.",
+        "topic": "Grundverben",
+        "pos": "Verb",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v675",
+        "direction": "hu_de",
+        "prompt": "becsukni",
+        "solution": "zumachen",
+        "note": "Alapalakok (Präteritum / Perfekt): machte zu / hat zugemacht. Elváló igekötős ige: kijelentő mondatban az igekötő a mondat végére kerül.",
+        "topic": "Trennbare Verben",
+        "pos": "Trennbares Verb",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v365",
+        "direction": "hu_de",
+        "prompt": "lassú",
+        "solution": "langsam",
+        "note": null,
+        "topic": "Adjektive",
+        "pos": "Adjektiv",
+        "source": "konyv_adatbazis"
+      }
+    ],
+    "de_hu_vocab": [
+      {
+        "id": "v078",
+        "direction": "de_hu",
+        "prompt": "das Wohnzimmer",
+        "solution": "nappali",
+        "note": "Többes száma: die Wohnzimmer.",
+        "topic": "Wohnen und Möbel",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v422",
+        "direction": "de_hu",
+        "prompt": "hübsch",
+        "solution": "csinos",
+        "note": null,
+        "topic": "Adjektive",
+        "pos": "Adjektiv",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v550",
+        "direction": "de_hu",
+        "prompt": "der Kurs",
+        "solution": "tanfolyam",
+        "note": "Többes száma: die Kurse.",
+        "topic": "Hobby und Freizeit",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v144",
+        "direction": "de_hu",
+        "prompt": "die Kollegin",
+        "solution": "kolléganő",
+        "note": "Többes száma: die Kolleginnen.",
+        "topic": "Alltag und Arbeit",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v576",
+        "direction": "de_hu",
+        "prompt": "die Fußgängerzone",
+        "solution": "sétálóutca",
+        "note": "Többes száma: die Fußgängerzonen.",
+        "topic": "Verkehr",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis_2"
+      }
+    ]
+  }
+}
