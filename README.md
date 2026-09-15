@@ -15,7 +15,8 @@ tartozik. A kitöltés után a rendszer pontoz (automatikus hasonlóság-becslé
 újracsinálható history-listába.
 
 Nincs élő szerver: a frontend statikus (GitHub Pages), a napi generálást és
-az előzmény-adatbázis karbantartását GitHub Actions workflow-k végzik.
+az előzmény-adatbázis karbantartását egy **Claude Code Routine** végzi
+minden hajnalban (nem GitHub Actions).
 
 ## Felépítés
 
@@ -33,10 +34,12 @@ web/                                              a statikus frontend (ide mutat
     history_index.json         összesítő a history nézethez (streak, átlag, gyenge témák)
     app.db                     levezetett, lekérdezhető/letölthető SQLite adatbázis
     state/usage_state.json     melyik szót/mondatot mikor használtuk (ismétlés-elkerüléshez)
-.github/workflows/
-  generate_daily.yml           hajnali cron + kézi indítás (workflow_dispatch)
-  build_db.yml                 history/** push-ra újraépíti az app.db-t és a history_index.json-t
 ```
+
+A hajnali automatizálást egy Claude Code Routine végzi (nincs `.github/workflows`
+mappa): minden éjjel lefuttatja a `scripts/build_db.py` és
+`scripts/generate_daily.py` scripteket, majd commitolja és pusholja az
+eredményt a `main` ágra.
 
 ## Beüzemelés (egyszeri lépések)
 
@@ -47,10 +50,6 @@ A repo **Settings → Pages** menüjében:
 - Branch: `main`, mappa: `/web`
 
 Ezután az oldal elérhető lesz a `https://<felhasználónév>.github.io/<repo>/` címen.
-
-> Ha ez az ág (`claude/...`) még nem a `main`, a végleges használat előtt
-> mergeld/pushold a tartalmát a `main` ágra – a scheduled workflow-k csak a
-> default branch-en lévő workflow-fájlt futtatják.
 
 ### 2. GitHub Personal Access Token létrehozása
 
@@ -67,24 +66,34 @@ A tokent az alkalmazás **Beállítások** fülén add meg – csak a saját
 böngésződ localStorage-ában tárolódik, GitHube-on kívül sehova nem kerül.
 Ne oszd meg mással, és ne mentsd el közös/nyilvános gépen.
 
-### 3. Első generálás
+### 3. Hajnali automatizálás (Claude Code Routine)
 
-A hajnali cron (`generate_daily.yml`, `0 3 * * *` UTC) automatikusan lefut
-minden nap. Az első feladatsorhoz nem kell várni: a repo Actions fülén
-indítsd el kézzel a "Napi feladatsor generálása" workflow-t
-(`workflow_dispatch`), vagy a Pages élesítése előtt már legenerált
-`web/data/daily/today.json` is használható.
+A napi feladatsor generálását és az előzmény-adatbázis karbantartását egy
+Claude Code Routine végzi, ami minden hajnalban (kb. 03:00 UTC, azaz
+4-5 óra Európa/Budapest idő szerint) lefut, és a következőket teszi:
+
+1. `git pull` a `main` ágon
+2. `python3 scripts/build_db.py` – az előző napi eredményekből frissíti a
+   `web/data/app.db` SQLite adatbázist és a `web/data/history_index.json`
+   összesítőt
+3. `python3 scripts/generate_daily.py` – legenerálja a következő napi
+   feladatsort (`web/data/daily/today.json`)
+4. commit + push a `main` ágra
+
+Ehhez nincs szükség GitHub Actions-re: a Routine a Claude Code
+előfizetésed alatt fut. A Routine beállítását/módosítását (ütemezés,
+kikapcsolás) a Claude Code felületén, a Routines listában tudod kezelni.
 
 ## Napi használat
 
-1. Nyisd meg az oldalt reggel, töltsd ki a napi feladatsort.
+1. Nyisd meg a bookmarkolt oldalt reggel, töltsd ki a napi feladatsort.
 2. "Ellenőrzés" → megjelenik minden feladathoz a megoldás, a magyarázat és
    egy automatikus javaslat (Helyes / Részben / Hibás). Ha a fordításod
    helyesen eltér a tárolt megoldástól, kattints a megfelelő gombra a
    javaslat felülbírálásához.
-3. "Eredmény mentése" → a mai eredmény bekerül a `web/data/history/` alá, a
-   `build_db.yml` workflow pedig automatikusan frissíti az összesítőt és a
-   letölthető SQLite adatbázist.
+3. "Eredmény mentése" → a mai eredmény bekerül a `web/data/history/` alá.
+   Az összesítő (SQLite + history_index.json) a következő hajnali Routine
+   futáskor frissül automatikusan.
 4. Az "Előzmények" fülön visszanézhető minden korábbi nap, illetve az
    "Újra csinálom" gombbal egy régebbi nap feladatai újra elvégezhetők
    (ez új próbálkozásként kerül ugyanahhoz a naphoz).
