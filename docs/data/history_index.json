@@ -2,6 +2,20 @@
   "generated_at": "2026-09-16",
   "days": [
     {
+      "date": "2026-09-16",
+      "attempt_count": 1,
+      "last_score": {
+        "points": 7.5,
+        "max": 20,
+        "percent": 37.5
+      },
+      "best_score": {
+        "points": 7.5,
+        "max": 20,
+        "percent": 37.5
+      }
+    },
+    {
       "date": "2026-09-15",
       "attempt_count": 1,
       "last_score": {
@@ -16,10 +30,10 @@
       }
     }
   ],
-  "streak_days": 1,
-  "total_days_practiced": 1,
-  "total_attempts": 1,
-  "average_percent": 67.5,
+  "streak_days": 2,
+  "total_days_practiced": 2,
+  "total_attempts": 2,
+  "average_percent": 52.5,
   "topic_stats": {
     "Wohnen und Möbel": {
       "attempts": 2,
@@ -43,43 +57,43 @@
     },
     "Adjektive": {
       "attempts": 3,
-      "incorrect": 1.0,
+      "incorrect": 1,
       "error_rate": 0.3333333333333333
     },
     "Wohnen": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Körper und Gesundheit": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Redemittel": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Verben mit Präposition": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Präpositionen": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Adverbien und Konnektoren": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Konnektoren und Satzbau": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Schwache Nomen": {
       "attempts": 1,
