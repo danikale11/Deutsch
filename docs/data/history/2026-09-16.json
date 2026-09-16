@@ -1,0 +1,244 @@
+{
+  "date": "2026-09-16",
+  "attempts": [
+    {
+      "attempt_no": 1,
+      "timestamp": "2026-09-16T06:26:53.364Z",
+      "answers": {
+        "hu_de_sentences": [
+          {
+            "id": "s860",
+            "direction": "hu_de",
+            "topic": "Verben mit Präposition",
+            "prompt": "Hasonlítsd össze az árakat a tavalyiakkal.",
+            "solution": "Vergleiche die Preise mit denen vom Vorjahr.",
+            "explanation": "Ez egy vonzatos ige (Verb mit Präposition): az ige jelentéséhez egy meghatározott elöljárószó és eset (Akkusativ vagy Dativ) tartozik rögzített formában, ezt a párost egységként érdemes megtanulni.",
+            "user_answer": "Verglecisht du die Preise mit frühere.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s927",
+            "direction": "hu_de",
+            "topic": "Konnektoren und Satzbau",
+            "prompt": "A szoba ugyan kicsi, de nagyon világos.",
+            "solution": "Das Zimmer ist zwar klein, aber sehr hell.",
+            "explanation": "Ez a mondat egy kötőszó (Konnektor) mondattani hatását gyakoroltatja: a kötőszó típusától függ, hogy a ragozott ige a mondat második helyén marad-e (mellérendelő, pl. und, aber, denn), vagy a mondat végére kerül (alárendelő, pl. weil, dass).",
+            "user_answer": "Das Zimmer ist klein, abed das sehr klar ist.",
+            "tier": "partial",
+            "points": 0.5
+          },
+          {
+            "id": "s678",
+            "direction": "hu_de",
+            "topic": "Verkehr",
+            "prompt": "A vonat ma negyven percet késik.",
+            "solution": "Der Zug hat heute vierzig Minuten Verspätung.",
+            "explanation": "Ez a mondat a(z) \"Hobby und Freizeit, Wegbeschreibung, Verkehr, Präpositionen\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+            "user_answer": "Der Zug spät 40 Minuten heute.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s413",
+            "direction": "hu_de",
+            "topic": "Adjektive",
+            "prompt": "A számlán hibás cím szerepel.",
+            "solution": "Die Rechnung enthält eine falsche Adresse.",
+            "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+            "user_answer": "Es gibt fehlerhaft Adresse auf die Rechnung.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s818",
+            "direction": "hu_de",
+            "topic": "Reflexive Verben",
+            "prompt": "Holnap érdeklődöm a nyitvatartás felől.",
+            "solution": "Ich erkundige mich morgen nach den Öffnungszeiten.",
+            "explanation": "Ez egy visszaható ige (reflexives Verb): a cselekvés visszahat az alanyra, ezért a mondatban egy visszaható névmás (mich, dich, sich, uns, euch, sich) is szerepel, ami a legtöbb esetben tárgyesetben áll.",
+            "user_answer": "Ich erkundige mich morgen über dem Öffnungzeit.",
+            "tier": "partial",
+            "points": 0.5
+          }
+        ],
+        "de_hu_sentences": [
+          {
+            "id": "s558",
+            "direction": "de_hu",
+            "topic": "Genitiv",
+            "prompt": "Wegen des schlechten Wetters bleibt die Terrasse geschlossen.",
+            "solution": "A rossz idő miatt a terasz zárva marad.",
+            "explanation": "Ez a mondat birtokos esetet (Genitiv) igényel: a Genitiv fejezi ki a birtoklást vagy egyes elöljárószók (wegen, trotz, während, innerhalb) vonzatát. A hím- és semlegesnemű főnevek `-s`/`-es` végződést kapnak, a névelő der/das -> des, die -> der.",
+            "user_answer": "A rossz idő miatt zárva hagytam a teraszt.",
+            "tier": "partial",
+            "points": 0.5
+          },
+          {
+            "id": "s1062",
+            "direction": "de_hu",
+            "topic": "Redemittel",
+            "prompt": "Anbei sende ich Ihnen die gewünschten Unterlagen.",
+            "solution": "Mellékelten küldöm a kért dokumentumokat.",
+            "explanation": "Ez a mondat birtokos esetet (Genitiv) igényel: a Genitiv fejezi ki a birtoklást vagy egyes elöljárószók (wegen, trotz, während, innerhalb) vonzatát. A hím- és semlegesnemű főnevek `-s`/`-es` végződést kapnak, a névelő der/das -> des, die -> der.",
+            "user_answer": "Csatolva küldöm a kért dokumentumokat.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s234",
+            "direction": "de_hu",
+            "topic": "Grundverben",
+            "prompt": "Ich habe den Regenschirm im Büro vergessen.",
+            "solution": "Az irodában felejtettem az esernyőmet.",
+            "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+            "user_answer": "Az irodában hagytam a tollat.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s161",
+            "direction": "de_hu",
+            "topic": "Alltag und Arbeit",
+            "prompt": "Ich habe heute leider keine Zeit.",
+            "solution": "Ma sajnos nincs időm.",
+            "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+            "user_answer": "Ma nem igazán van időm.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s525",
+            "direction": "de_hu",
+            "topic": "Modalverben und Wendungen",
+            "prompt": "Es ist erst acht Uhr, wir haben nur eine Stunde gearbeitet.",
+            "solution": "Még csak nyolc óra van, csak egy órát dolgoztunk.",
+            "explanation": "Modális ige vagy modális jelentésű állandósult kifejezés áll a mondatban: a ragozott modális ige a második helyen, a cselekvést kifejező ige főnévi igenévi alakban a mondat végén helyezkedik el.",
+            "user_answer": "Ez az első óra, amikor egy órát dolgozunk",
+            "tier": "incorrect",
+            "points": 0
+          }
+        ],
+        "hu_de_vocab": [
+          {
+            "id": "v785",
+            "direction": "hu_de",
+            "topic": "Konnektoren und Satzbau",
+            "prompt": "mivel (írott stílus)",
+            "solution": "da",
+            "explanation": null,
+            "user_answer": "obwohl",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v103",
+            "direction": "hu_de",
+            "topic": "Wohnen und Möbel",
+            "prompt": "mosógép",
+            "solution": "die Waschmaschine",
+            "explanation": "Többes száma: die Waschmaschinen.",
+            "user_answer": "Waschmaschine",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v709",
+            "direction": "hu_de",
+            "topic": "Reflexive Verben",
+            "prompt": "elbúcsúzni vkitől",
+            "solution": "sich verabschieden (von + D)",
+            "explanation": "Rögzített vonzat: von + D. Visszaható ige: használatához visszaható névmás (mich, dich, sich...) szükséges.",
+            "user_answer": "sich verabschieden von",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v866",
+            "direction": "hu_de",
+            "topic": "Adjektive",
+            "prompt": "népszerű",
+            "solution": "beliebt",
+            "explanation": null,
+            "user_answer": "popular",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v921",
+            "direction": "hu_de",
+            "topic": "Redemittel",
+            "prompt": "úgy találom, hogy",
+            "solution": "ich finde, dass",
+            "explanation": null,
+            "user_answer": "Ich finde, dass",
+            "tier": "correct",
+            "points": 1
+          }
+        ],
+        "de_hu_vocab": [
+          {
+            "id": "v208",
+            "direction": "de_hu",
+            "topic": "Grundverben",
+            "prompt": "lernen",
+            "solution": "tanulni",
+            "explanation": "Alapalakok (Präteritum / Perfekt): lernte / hat gelernt.",
+            "user_answer": "tanulni",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v471",
+            "direction": "de_hu",
+            "topic": "Adverbien und Konnektoren",
+            "prompt": "gestern",
+            "solution": "tegnap",
+            "explanation": null,
+            "user_answer": "tegnap",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v617",
+            "direction": "de_hu",
+            "topic": "Tagesablauf",
+            "prompt": "der Alltag",
+            "solution": "hétköznapok",
+            "explanation": null,
+            "user_answer": "mindennapok",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v953",
+            "direction": "de_hu",
+            "topic": "Redemittel",
+            "prompt": "vermutlich handelt es sich um",
+            "solution": "feltehetően vmiről van szó",
+            "explanation": null,
+            "user_answer": "",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v924",
+            "direction": "de_hu",
+            "topic": "Redemittel",
+            "prompt": "ich halte das für",
+            "solution": "vminek tartom",
+            "explanation": null,
+            "user_answer": "megtartom neked",
+            "tier": "incorrect",
+            "points": 0
+          }
+        ]
+      },
+      "score": {
+        "points": 7.5,
+        "max": 20,
+        "percent": 37.5
+      }
+    }
+  ]
+}
