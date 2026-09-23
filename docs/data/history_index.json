@@ -2,6 +2,20 @@
   "generated_at": "2026-09-23",
   "days": [
     {
+      "date": "2026-09-23",
+      "attempt_count": 1,
+      "last_score": {
+        "points": 10,
+        "max": 20,
+        "percent": 50
+      },
+      "best_score": {
+        "points": 10,
+        "max": 20,
+        "percent": 50
+      }
+    },
+    {
       "date": "2026-09-16",
       "attempt_count": 1,
       "last_score": {
@@ -30,10 +44,10 @@
       }
     }
   ],
-  "streak_days": 0,
-  "total_days_practiced": 2,
-  "total_attempts": 2,
-  "average_percent": 52.5,
+  "streak_days": 1,
+  "total_days_practiced": 3,
+  "total_attempts": 3,
+  "average_percent": 51.666666666666664,
   "topic_stats": {
     "Wohnen und Möbel": {
       "attempts": 3,
@@ -47,7 +61,7 @@
     },
     "Reflexive Verben": {
       "attempts": 4,
-      "incorrect": 2.0,
+      "incorrect": 2,
       "error_rate": 0.5
     },
     "Trennbare Verben": {
@@ -57,18 +71,18 @@
     },
     "Adjektive": {
       "attempts": 5,
-      "incorrect": 3.0,
+      "incorrect": 3,
       "error_rate": 0.6
     },
     "Wohnen": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Körper und Gesundheit": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Redemittel": {
       "attempts": 5,
@@ -83,12 +97,12 @@
     "Präpositionen": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Adverbien und Konnektoren": {
       "attempts": 2,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Konnektoren und Satzbau": {
       "attempts": 3,
@@ -103,7 +117,7 @@
     "Verkehr": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Genitiv": {
       "attempts": 1,
@@ -113,17 +127,17 @@
     "Alltag und Arbeit": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Modalverben und Wendungen": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Tagesablauf": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     }
   }
 }
