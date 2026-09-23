@@ -1,0 +1,244 @@
+{
+  "date": "2026-09-23",
+  "attempts": [
+    {
+      "attempt_no": 1,
+      "timestamp": "2026-09-23T07:45:54.665Z",
+      "answers": {
+        "hu_de_sentences": [
+          {
+            "id": "s316",
+            "direction": "hu_de",
+            "topic": "Reflexive Verben",
+            "prompt": "A kisebbik lakás mellett döntöttünk.",
+            "solution": "Wir haben uns für die kleinere Wohnung entschieden.",
+            "explanation": "Ez egy visszaható ige (reflexives Verb): a cselekvés visszahat az alanyra, ezért a mondatban egy visszaható névmás (mich, dich, sich, uns, euch, sich) is szerepel, ami a legtöbb esetben tárgyesetben áll.",
+            "user_answer": "Wir haben uns für die kleiner Wohnung entschanden.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s099",
+            "direction": "hu_de",
+            "topic": "Wohnen und Möbel",
+            "prompt": "A falon régi családi fényképek lógnak.",
+            "solution": "An der Wand hängen alte Familienfotos.",
+            "explanation": "Ez egy Wechselpräposition (in, an, auf, über, unter, vor, hinter, neben, zwischen), amely Akkusativot vagy Dativot is vonzhat: mozgást, irányt kifejező 'hova?' kérdésre Akkusativ jár (pl. Ich gehe in die Küche), helyhez kötött 'hol?' kérdésre Dativ (pl. Ich bin in der Küche).",
+            "user_answer": "Alte Bilder hangen an die Wand.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s065",
+            "direction": "hu_de",
+            "topic": "Körper und Gesundheit",
+            "prompt": "Sürgősen orvoshoz kell mennem.",
+            "solution": "Ich muss dringend zum Arzt gehen.",
+            "explanation": "Ez a mondat a(z) \"Beim Arzt, Körperteile\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+            "user_answer": "Ich muss dringeng zum Artz gehen.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s998",
+            "direction": "hu_de",
+            "topic": "Adjektive",
+            "prompt": "A vizsgálat alaposabb volt a szokásosnál.",
+            "solution": "Die Prüfung war gründlicher als sonst.",
+            "explanation": "Ez a mondat a(z) \"Adjektive\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+            "user_answer": "Der Untersuch hat gründlicher als das Übliche gewesen.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s884",
+            "direction": "hu_de",
+            "topic": "Präpositionen",
+            "prompt": "Vezetés közben nem szabad telefonálni.",
+            "solution": "Während der Fahrt darf man nicht telefonieren.",
+            "explanation": "Ez egy elöljárószó, amelyhez rögzített eset (Akkusativ, Dativ vagy Genitiv) tartozik: az elöljárószó után álló főnév/névmás esetét mindig az elöljárószó határozza meg, nem a mondat egyéb része.",
+            "user_answer": "Während Fahren darf nich anrufen.",
+            "tier": "partial",
+            "points": 0.5
+          }
+        ],
+        "de_hu_sentences": [
+          {
+            "id": "s737",
+            "direction": "de_hu",
+            "topic": "Tagesablauf",
+            "prompt": "Ich muss die Verabredung leider absagen.",
+            "solution": "Sajnos le kell mondanom a találkozót.",
+            "explanation": "Ez felszólító mód (Imperativ): egyes szám 2. személyben az ige töve (esetenként `-e` végződéssel), többes szám 2. személyben a `ihr`-hez tartozó igealak (névmás nélkül), magázó formában pedig az igealak + `Sie` a szórend.",
+            "user_answer": "Sajnos lekell mondanom a kinevezést.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s1067",
+            "direction": "de_hu",
+            "topic": "Redemittel",
+            "prompt": "In der Mitte des Bildes liegt ein großer Platz.",
+            "solution": "A kép közepén egy nagy tér van.",
+            "explanation": "Ez a mondat birtokos esetet (Genitiv) igényel: a Genitiv fejezi ki a birtoklást vagy egyes elöljárószók (wegen, trotz, während, innerhalb) vonzatát. A hím- és semlegesnemű főnevek `-s`/`-es` végződést kapnak, a névelő der/das -> des, die -> der.",
+            "user_answer": "A kép közepén egy nagy tér áll.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s451",
+            "direction": "de_hu",
+            "topic": "Adverbien und Konnektoren",
+            "prompt": "Meine Eltern haben mir bisher sehr viel geholfen.",
+            "solution": "A szüleim eddig nagyon sokat segítettek nekem.",
+            "explanation": "Ez a mondat egy határozószót vagy kötőszót (Konnektor) gyakoroltat, amely két gondolat logikai kapcsolatát (ok, következmény, ellentét, feltétel) fejezi ki, és befolyásolhatja a mellette álló ige helyét a mondatban.",
+            "user_answer": "A szüleim eddig sokat segítettek nekem.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s150",
+            "direction": "de_hu",
+            "topic": "Alltag und Arbeit",
+            "prompt": "Dieser Brief ist gestern angekommen.",
+            "solution": "Ez a levél tegnap érkezett meg.",
+            "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+            "user_answer": "Ezek a pénztárcák tegnap érkeztek.",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s657",
+            "direction": "de_hu",
+            "topic": "Hobby und Freizeit",
+            "prompt": "Sie spielt gleich drei Instrumente.",
+            "solution": "Rögtön három hangszeren játszik.",
+            "explanation": "Ez a mondat a(z) \"Hobby und Freizeit, Wegbeschreibung, Verkehr, Präpositionen\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+            "user_answer": "Ő még három hangszeren játszik.",
+            "tier": "incorrect",
+            "points": 0
+          }
+        ],
+        "hu_de_vocab": [
+          {
+            "id": "v357",
+            "direction": "hu_de",
+            "topic": "Adjektive",
+            "prompt": "keskeny",
+            "solution": "schmal",
+            "explanation": null,
+            "user_answer": "eng",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v639",
+            "direction": "hu_de",
+            "topic": "Schwache Nomen",
+            "prompt": "szív (gyenge ragozás)",
+            "solution": "das Herz",
+            "explanation": "Gyenge főnév (n-Deklination), ragozott alakjai: dem Herzen, des Herzens.",
+            "user_answer": "der Herz",
+            "tier": "partial",
+            "points": 0.5
+          },
+          {
+            "id": "v419",
+            "direction": "hu_de",
+            "topic": "Adjektive",
+            "prompt": "régimódi",
+            "solution": "altmodisch",
+            "explanation": null,
+            "user_answer": "altmodisch",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v038",
+            "direction": "hu_de",
+            "topic": "Körper und Gesundheit",
+            "prompt": "szem",
+            "solution": "das Auge",
+            "explanation": "Többes száma: die Augen.",
+            "user_answer": "die Auge",
+            "tier": "partial",
+            "points": 0.5
+          },
+          {
+            "id": "v542",
+            "direction": "hu_de",
+            "topic": "Hobby und Freizeit",
+            "prompt": "fénykép",
+            "solution": "das Foto",
+            "explanation": "Többes száma: die Fotos.",
+            "user_answer": "das Bildschrim",
+            "tier": "incorrect",
+            "points": 0
+          }
+        ],
+        "de_hu_vocab": [
+          {
+            "id": "v014",
+            "direction": "de_hu",
+            "topic": "Essen und Trinken",
+            "prompt": "das Obst",
+            "solution": "gyümölcs",
+            "explanation": null,
+            "user_answer": "Zöldség",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v865",
+            "direction": "de_hu",
+            "topic": "Adjektive",
+            "prompt": "begeistert",
+            "solution": "lelkes",
+            "explanation": null,
+            "user_answer": "lelkes",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v280",
+            "direction": "de_hu",
+            "topic": "Verben mit Präposition",
+            "prompt": "lachen (über + A)",
+            "solution": "nevetni vmin",
+            "explanation": "Alapalakok (Präteritum / Perfekt): lachte / hat gelacht. Rögzített vonzat: über + A.",
+            "user_answer": "Nevetni valamin",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v056",
+            "direction": "de_hu",
+            "topic": "Körper und Gesundheit",
+            "prompt": "der Rumpf",
+            "solution": "törzs",
+            "explanation": "Többes száma: die Rümpfe.",
+            "user_answer": "Fenék",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v946",
+            "direction": "de_hu",
+            "topic": "Redemittel",
+            "prompt": "auf dem Bild sieht man",
+            "solution": "a képen látható",
+            "explanation": null,
+            "user_answer": "a képen embert láthatunk",
+            "tier": "partial",
+            "points": 0.5
+          }
+        ]
+      },
+      "score": {
+        "points": 10,
+        "max": 20,
+        "percent": 50
+      }
+    }
+  ]
+}
