@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-09-24",
   "days": [
     {
       "date": "2026-09-23",
@@ -50,9 +50,9 @@
   "average_percent": 51.666666666666664,
   "topic_stats": {
     "Wohnen und Möbel": {
-      "attempts": 3,
-      "incorrect": 0.5,
-      "error_rate": 0.16666666666666666
+      "attempts": 4,
+      "incorrect": 1.5,
+      "error_rate": 0.375
     },
     "Grundverben": {
       "attempts": 5,
@@ -60,9 +60,9 @@
       "error_rate": 0.3
     },
     "Reflexive Verben": {
-      "attempts": 4,
-      "incorrect": 2,
-      "error_rate": 0.5
+      "attempts": 5,
+      "incorrect": 2.0,
+      "error_rate": 0.4
     },
     "Trennbare Verben": {
       "attempts": 2,
@@ -70,39 +70,39 @@
       "error_rate": 0.75
     },
     "Adjektive": {
-      "attempts": 5,
-      "incorrect": 3,
-      "error_rate": 0.6
+      "attempts": 9,
+      "incorrect": 5.0,
+      "error_rate": 0.5555555555555556
     },
     "Wohnen": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0
+      "error_rate": 0.0
     },
     "Körper und Gesundheit": {
-      "attempts": 1,
-      "incorrect": 0,
-      "error_rate": 0
+      "attempts": 4,
+      "incorrect": 1.5,
+      "error_rate": 0.375
     },
     "Redemittel": {
-      "attempts": 5,
-      "incorrect": 2,
-      "error_rate": 0.4
+      "attempts": 7,
+      "incorrect": 2.5,
+      "error_rate": 0.35714285714285715
     },
     "Verben mit Präposition": {
-      "attempts": 2,
+      "attempts": 3,
       "incorrect": 1,
-      "error_rate": 0.5
+      "error_rate": 0.3333333333333333
     },
     "Präpositionen": {
-      "attempts": 1,
-      "incorrect": 0,
-      "error_rate": 0
+      "attempts": 2,
+      "incorrect": 0.5,
+      "error_rate": 0.25
     },
     "Adverbien und Konnektoren": {
-      "attempts": 2,
+      "attempts": 3,
       "incorrect": 0,
-      "error_rate": 0
+      "error_rate": 0.0
     },
     "Konnektoren und Satzbau": {
       "attempts": 3,
@@ -110,14 +110,14 @@
       "error_rate": 0.8333333333333334
     },
     "Schwache Nomen": {
-      "attempts": 1,
-      "incorrect": 0.5,
+      "attempts": 2,
+      "incorrect": 1.0,
       "error_rate": 0.5
     },
     "Verkehr": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1
+      "error_rate": 1.0
     },
     "Genitiv": {
       "attempts": 1,
@@ -125,19 +125,29 @@
       "error_rate": 0.5
     },
     "Alltag und Arbeit": {
-      "attempts": 1,
-      "incorrect": 1,
-      "error_rate": 1
+      "attempts": 2,
+      "incorrect": 2,
+      "error_rate": 1.0
     },
     "Modalverben und Wendungen": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1
+      "error_rate": 1.0
     },
     "Tagesablauf": {
+      "attempts": 2,
+      "incorrect": 1,
+      "error_rate": 0.5
+    },
+    "Hobby und Freizeit": {
+      "attempts": 2,
+      "incorrect": 2,
+      "error_rate": 1.0
+    },
+    "Essen und Trinken": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1
+      "error_rate": 1.0
     }
   }
 }
