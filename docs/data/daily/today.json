@@ -1,213 +1,213 @@
 {
-  "date": "2026-09-29",
-  "generated_at": "2026-09-29T04:03:30.495057+02:00",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T04:03:34.154881+02:00",
   "tasks": {
     "hu_de_sentences": [
       {
-        "id": "s665",
+        "id": "s1055",
         "direction": "hu_de",
-        "prompt": "Este szívesen játszunk egy társasjátékot.",
-        "solution": "Am Abend spielen wir gern ein Brettspiel.",
-        "explanation": "Ez a mondat a(z) \"Hobby und Freizeit, Wegbeschreibung, Verkehr, Präpositionen\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
-        "topic": "Hobby und Freizeit",
-        "chapter_title": "Hobby und Freizeit, Wegbeschreibung, Verkehr, Präpositionen",
+        "prompt": "Kétlem, hogy tudjuk tartani a határidőt.",
+        "solution": "Ich bezweifle, dass wir den Termin halten können.",
+        "explanation": "Ez a mondat birtokos esetet (Genitiv) igényel: a Genitiv fejezi ki a birtoklást vagy egyes elöljárószók (wegen, trotz, während, innerhalb) vonzatát. A hím- és semlegesnemű főnevek `-s`/`-es` végződést kapnak, a névelő der/das -> des, die -> der.",
+        "topic": "Redemittel",
+        "chapter_title": "lassen, Genitivpräpositionen, offizieller Brief, Meinungsäußerung",
         "source": "konyv_adatbazis_2"
       },
       {
-        "id": "s1199",
+        "id": "s728",
         "direction": "hu_de",
-        "prompt": "Összességében a kép nyugodt hangulatot közvetít.",
-        "solution": "Insgesamt vermittelt das Bild eine ruhige Stimmung.",
-        "explanation": "Ez egy képleírásban használatos fordulat: jellemzően jelen idő, helyhatározós kifejezések (vorne, hinten, links, rechts, in der Mitte) és a Wechselpräpositionok Dativ alakja (mert helyet, nem mozgást írunk le) jellemzi.",
-        "topic": "Bildbeschreibung",
-        "chapter_title": "Bildbeschreibung",
+        "prompt": "A reggeli a szállodában mindig nagyon bőséges volt.",
+        "solution": "Das Frühstück im Hotel war immer sehr reichhaltig.",
+        "explanation": "Ez felszólító mód (Imperativ): egyes szám 2. személyben az ige töve (esetenként `-e` végződéssel), többes szám 2. személyben a `ihr`-hez tartozó igealak (névmás nélkül), magázó formában pedig az igealak + `Sie` a szórend.",
+        "topic": "Tagesablauf",
+        "chapter_title": "Tagesablauf, Imperativ, reflexive Verben, schwache Nomen, Modalpartikeln",
         "source": "konyv_adatbazis_2"
       },
       {
-        "id": "s877",
+        "id": "s792",
         "direction": "hu_de",
-        "prompt": "Végigsétáltunk az egész parkon.",
-        "solution": "Wir sind durch den ganzen Park gelaufen.",
-        "explanation": "Ez egy elöljárószó, amelyhez rögzített eset (Akkusativ, Dativ vagy Genitiv) tartozik: az elöljárószó után álló főnév/névmás esetét mindig az elöljárószó határozza meg, nem a mondat egyéb része.",
-        "topic": "Präpositionen",
-        "chapter_title": "Hobby und Freizeit, Wegbeschreibung, Verkehr, Präpositionen",
+        "prompt": "Csukd be, kérlek, az ablakot, huzat van.",
+        "solution": "Mach bitte das Fenster zu, es zieht.",
+        "explanation": "Ez egy elváló igekötős ige (trennbares Verb): kijelentő mondatban az igekötő leválik a ragozott igéről és a mondat végére kerül (pl. abfahren -> Der Zug fährt um acht ab), Perfektben pedig a `ge-` képző az igekötő és a szótő közé kerül.",
+        "topic": "Trennbare Verben",
+        "chapter_title": "Trennbare Verben, Verben mit Präposition",
         "source": "konyv_adatbazis_2"
       },
       {
-        "id": "s376",
+        "id": "s399",
         "direction": "hu_de",
-        "prompt": "Nyáron este sokáig világos van.",
-        "solution": "Im Sommer ist es abends lange hell.",
+        "prompt": "Mondd meg őszintén, mit gondolsz.",
+        "solution": "Sag mir bitte ehrlich, was du denkst.",
         "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
         "topic": "Adjektive",
         "chapter_title": "Adjektive, Personenbeschreibung",
         "source": "konyv_adatbazis"
       },
       {
-        "id": "s357",
+        "id": "s172",
         "direction": "hu_de",
-        "prompt": "A sikátor túl keskeny egy autónak.",
-        "solution": "Die Gasse ist zu schmal für ein Auto.",
-        "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
-        "topic": "Adjektive",
-        "chapter_title": "Adjektive, Personenbeschreibung",
+        "prompt": "Hívj fel, kérlek, ha megérkeztél.",
+        "solution": "Ruf mich bitte an, wenn du angekommen bist.",
+        "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+        "topic": "Grundverben",
+        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
         "source": "konyv_adatbazis"
       }
     ],
     "de_hu_sentences": [
       {
-        "id": "s248",
+        "id": "s725",
         "direction": "de_hu",
-        "prompt": "Ich hole dich um sieben vom Bahnhof ab.",
-        "solution": "Hétkor elmegyek érted a pályaudvarra.",
-        "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
-        "topic": "Grundverben",
-        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
-        "source": "konyv_adatbazis"
+        "prompt": "Als Andenken habe ich nur eine Postkarte gekauft.",
+        "solution": "Emléktárgyként csak egy képeslapot vettem.",
+        "explanation": "Ez a mondat a(z) \"Reise, Hotel, Flughafen, Pronominaladverbien, Zeitangaben\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+        "topic": "Reise, Hotel, Flughafen",
+        "chapter_title": "Reise, Hotel, Flughafen, Pronominaladverbien, Zeitangaben",
+        "source": "konyv_adatbazis_2"
       },
       {
-        "id": "s154",
+        "id": "s918",
         "direction": "de_hu",
-        "prompt": "Sie hat viel Erfahrung mit schwierigen Kunden.",
-        "solution": "Sok tapasztalata van a nehéz ügyfelekkel.",
-        "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
-        "topic": "Alltag und Arbeit",
-        "chapter_title": "Alltag: Verben, Nebensätze, Perfekt",
-        "source": "konyv_adatbazis"
+        "prompt": "Je früher wir losfahren, desto ruhiger ist die Autobahn.",
+        "solution": "Minél korábban indulunk, annál nyugodtabb az autópálya.",
+        "explanation": "Ez a mondat egy kötőszó (Konnektor) mondattani hatását gyakoroltatja: a kötőszó típusától függ, hogy a ragozott ige a mondat második helyén marad-e (mellérendelő, pl. und, aber, denn), vagy a mondat végére kerül (alárendelő, pl. weil, dass).",
+        "topic": "Konnektoren und Satzbau",
+        "chapter_title": "Perfekt, Präteritum, Futur I, werden, Konnektoren (KATI)",
+        "source": "konyv_adatbazis_2"
       },
       {
-        "id": "s559",
+        "id": "s510",
         "direction": "de_hu",
-        "prompt": "Während der Besprechung klingelte ständig sein Telefon.",
-        "solution": "A megbeszélés alatt folyton csörgött a telefonja.",
-        "explanation": "Ez a mondat birtokos esetet (Genitiv) igényel: a Genitiv fejezi ki a birtoklást vagy egyes elöljárószók (wegen, trotz, während, innerhalb) vonzatát. A hím- és semlegesnemű főnevek `-s`/`-es` végződést kapnak, a névelő der/das -> des, die -> der.",
-        "topic": "Genitiv",
-        "chapter_title": "Dativ und Genitiv",
-        "source": "konyv_adatbazis"
-      },
-      {
-        "id": "s025",
-        "direction": "de_hu",
-        "prompt": "Nach der Arbeit trinkt er gern ein Bier.",
-        "solution": "Munka után szívesen iszik egy sört.",
-        "explanation": "Ez a mondat a(z) \"Im Restaurant: Essen und Trinken\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
-        "topic": "Essen und Trinken",
-        "chapter_title": "Im Restaurant: Essen und Trinken",
-        "source": "konyv_adatbazis"
-      },
-      {
-        "id": "s461",
-        "direction": "de_hu",
-        "prompt": "Ich möchte dich darum bitten, mir zu helfen.",
-        "solution": "Azt szeretném kérni tőled, hogy segíts nekem.",
+        "prompt": "Er spricht sogar ein wenig Japanisch.",
+        "solution": "Sőt, egy kicsit japánul is beszél.",
         "explanation": "Ez a mondat egy határozószót vagy kötőszót (Konnektor) gyakoroltat, amely két gondolat logikai kapcsolatát (ok, következmény, ellentét, feltétel) fejezi ki, és befolyásolhatja a mellette álló ige helyét a mondatban.",
         "topic": "Adverbien und Konnektoren",
         "chapter_title": "Modalverben, Wortstellung, man, Adverbien",
         "source": "konyv_adatbazis"
+      },
+      {
+        "id": "s793",
+        "direction": "de_hu",
+        "prompt": "Der Verkehr hat in den letzten Jahren stark zugenommen.",
+        "solution": "A forgalom az elmúlt években erősen megnőtt.",
+        "explanation": "Ez egy elváló igekötős ige (trennbares Verb): kijelentő mondatban az igekötő leválik a ragozott igéről és a mondat végére kerül (pl. abfahren -> Der Zug fährt um acht ab), Perfektben pedig a `ge-` képző az igekötő és a szótő közé kerül.",
+        "topic": "Trennbare Verben",
+        "chapter_title": "Trennbare Verben, Verben mit Präposition",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "s928",
+        "direction": "de_hu",
+        "prompt": "Die Apotheke hat täglich bis achtzehn Uhr geöffnet.",
+        "solution": "A gyógyszertár naponta tizennyolc óráig tart nyitva.",
+        "explanation": "Ez a mondat a(z) \"Reise, Hotel, Flughafen, Pronominaladverbien, Zeitangaben\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+        "topic": "Adverbien",
+        "chapter_title": "Reise, Hotel, Flughafen, Pronominaladverbien, Zeitangaben",
+        "source": "konyv_adatbazis_2"
       }
     ],
     "hu_de_vocab": [
       {
-        "id": "v503",
+        "id": "v078",
         "direction": "hu_de",
-        "prompt": "talán",
-        "solution": "vielleicht",
-        "note": null,
-        "topic": "Adverbien und Konnektoren",
-        "pos": "Adverb/Konnektor",
-        "source": "konyv_adatbazis"
-      },
-      {
-        "id": "v485",
-        "direction": "hu_de",
-        "prompt": "később",
-        "solution": "nachher",
-        "note": null,
-        "topic": "Adverbien und Konnektoren",
-        "pos": "Adverb/Konnektor",
-        "source": "konyv_adatbazis"
-      },
-      {
-        "id": "v133",
-        "direction": "hu_de",
-        "prompt": "üzlet",
-        "solution": "das Geschäft",
-        "note": "Többes száma: die Geschäfte.",
-        "topic": "Stadt und Verkehr",
-        "pos": "Nomen",
-        "source": "konyv_adatbazis"
-      },
-      {
-        "id": "v759",
-        "direction": "hu_de",
-        "prompt": "kivéve",
-        "solution": "außer + D",
-        "note": null,
-        "topic": "Präpositionen",
-        "pos": "Präposition",
-        "source": "konyv_adatbazis_2"
-      },
-      {
-        "id": "v254",
-        "direction": "hu_de",
-        "prompt": "ügyelni vmire",
-        "solution": "achten (auf + A)",
-        "note": "Alapalakok (Präteritum / Perfekt): achtete / hat geachtet. Rögzített vonzat: auf + A.",
-        "topic": "Verben mit Präposition",
-        "pos": "Verb mit Präposition",
-        "source": "konyv_adatbazis"
-      }
-    ],
-    "de_hu_vocab": [
-      {
-        "id": "v097",
-        "direction": "de_hu",
-        "prompt": "das Fenster",
-        "solution": "ablak",
-        "note": "Többes száma: die Fenster.",
+        "prompt": "nappali",
+        "solution": "das Wohnzimmer",
+        "note": "Többes száma: die Wohnzimmer.",
         "topic": "Wohnen und Möbel",
         "pos": "Nomen",
         "source": "konyv_adatbazis"
       },
       {
-        "id": "v170",
-        "direction": "de_hu",
-        "prompt": "arbeiten",
-        "solution": "dolgozni",
-        "note": "Alapalakok (Präteritum / Perfekt): arbeitete / hat gearbeitet.",
-        "topic": "Grundverben",
-        "pos": "Verb",
-        "source": "konyv_adatbazis"
-      },
-      {
-        "id": "v429",
-        "direction": "de_hu",
-        "prompt": "zufrieden",
-        "solution": "elégedett",
+        "id": "v409",
+        "direction": "hu_de",
+        "prompt": "szükséges",
+        "solution": "nötig",
         "note": null,
         "topic": "Adjektive",
         "pos": "Adjektiv",
         "source": "konyv_adatbazis"
       },
       {
-        "id": "v874",
+        "id": "v586",
+        "direction": "hu_de",
+        "prompt": "szállás",
+        "solution": "die Unterkunft",
+        "note": "Többes száma: die Unterkünfte.",
+        "topic": "Reise, Hotel, Flughafen",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v284",
+        "direction": "hu_de",
+        "prompt": "reagálni vmire",
+        "solution": "reagieren (auf + A)",
+        "note": "Alapalakok (Präteritum / Perfekt): reagierte / hat reagiert. Rögzített vonzat: auf + A.",
+        "topic": "Verben mit Präposition",
+        "pos": "Verb mit Präposition",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v350",
+        "direction": "hu_de",
+        "prompt": "nagy",
+        "solution": "groß",
+        "note": null,
+        "topic": "Adjektive",
+        "pos": "Adjektiv",
+        "source": "konyv_adatbazis"
+      }
+    ],
+    "de_hu_vocab": [
+      {
+        "id": "v888",
         "direction": "de_hu",
-        "prompt": "flexibel",
-        "solution": "rugalmas",
+        "prompt": "verheiratet",
+        "solution": "házas",
         "note": null,
         "topic": "Adjektive",
         "pos": "Adjektiv",
         "source": "konyv_adatbazis_2"
       },
       {
-        "id": "v712",
+        "id": "v423",
         "direction": "de_hu",
-        "prompt": "sich weigern",
-        "solution": "megtagadni vmit",
-        "note": "Visszaható ige: használatához visszaható névmás (mich, dich, sich...) szükséges.",
-        "topic": "Reflexive Verben",
-        "pos": "Reflexives Verb",
+        "prompt": "sportlich",
+        "solution": "sportos",
+        "note": null,
+        "topic": "Adjektive",
+        "pos": "Adjektiv",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v127",
+        "direction": "de_hu",
+        "prompt": "der Zug",
+        "solution": "vonat",
+        "note": "Többes száma: die Züge.",
+        "topic": "Stadt und Verkehr",
+        "pos": "Nomen",
+        "source": "konyv_adatbazis"
+      },
+      {
+        "id": "v867",
+        "direction": "de_hu",
+        "prompt": "berufstätig",
+        "solution": "dolgozó, kereső",
+        "note": null,
+        "topic": "Adjektive",
+        "pos": "Adjektiv",
         "source": "konyv_adatbazis_2"
+      },
+      {
+        "id": "v514",
+        "direction": "de_hu",
+        "prompt": "dürfen",
+        "solution": "szabad",
+        "note": null,
+        "topic": "Modalverben und Wendungen",
+        "pos": "Modalverb/Wendung",
+        "source": "konyv_adatbazis"
       }
     ]
   }
