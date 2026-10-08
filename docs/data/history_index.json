@@ -2,6 +2,20 @@
   "generated_at": "2026-10-08",
   "days": [
     {
+      "date": "2026-10-08",
+      "attempt_count": 1,
+      "last_score": {
+        "points": 8.5,
+        "max": 20,
+        "percent": 42.5
+      },
+      "best_score": {
+        "points": 8.5,
+        "max": 20,
+        "percent": 42.5
+      }
+    },
+    {
       "date": "2026-09-23",
       "attempt_count": 1,
       "last_score": {
@@ -44,10 +58,10 @@
       }
     }
   ],
-  "streak_days": 0,
-  "total_days_practiced": 3,
-  "total_attempts": 3,
-  "average_percent": 51.666666666666664,
+  "streak_days": 1,
+  "total_days_practiced": 4,
+  "total_attempts": 4,
+  "average_percent": 49.375,
   "topic_stats": {
     "Wohnen und Möbel": {
       "attempts": 4,
@@ -61,7 +75,7 @@
     },
     "Reflexive Verben": {
       "attempts": 5,
-      "incorrect": 2.0,
+      "incorrect": 2,
       "error_rate": 0.4
     },
     "Trennbare Verben": {
@@ -71,13 +85,13 @@
     },
     "Adjektive": {
       "attempts": 9,
-      "incorrect": 5.0,
+      "incorrect": 5,
       "error_rate": 0.5555555555555556
     },
     "Wohnen": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Körper und Gesundheit": {
       "attempts": 4,
@@ -102,7 +116,7 @@
     "Adverbien und Konnektoren": {
       "attempts": 3,
       "incorrect": 0,
-      "error_rate": 0.0
+      "error_rate": 0
     },
     "Konnektoren und Satzbau": {
       "attempts": 3,
@@ -111,13 +125,13 @@
     },
     "Schwache Nomen": {
       "attempts": 2,
-      "incorrect": 1.0,
+      "incorrect": 1,
       "error_rate": 0.5
     },
     "Verkehr": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Genitiv": {
       "attempts": 1,
@@ -127,12 +141,12 @@
     "Alltag und Arbeit": {
       "attempts": 2,
       "incorrect": 2,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Modalverben und Wendungen": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Tagesablauf": {
       "attempts": 2,
@@ -142,12 +156,12 @@
     "Hobby und Freizeit": {
       "attempts": 2,
       "incorrect": 2,
-      "error_rate": 1.0
+      "error_rate": 1
     },
     "Essen und Trinken": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1.0
+      "error_rate": 1
     }
   }
 }
