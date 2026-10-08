@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-08",
+  "attempts": [
+    {
+      "attempt_no": 1,
+      "timestamp": "2026-10-08T08:31:41.666Z",
+      "answers": {
+        "hu_de_sentences": [
+          {
+            "id": "s820",
+            "direction": "hu_de",
+            "topic": "Reflexive Verben",
+            "prompt": "A gyerek fél a nagy kutyáktól.",
+            "solution": "Das Kind fürchtet sich vor großen Hunden.",
+            "explanation": "Ez egy visszaható ige (reflexives Verb): a cselekvés visszahat az alanyra, ezért a mondatban egy visszaható névmás (mich, dich, sich, uns, euch, sich) is szerepel, ami a legtöbb esetben tárgyesetben áll.",
+            "user_answer": "Das Kind hat Ängst über der Großer Hunden.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s296",
+            "direction": "hu_de",
+            "topic": "Verben mit Präposition",
+            "prompt": "Tegnap sokáig telefonáltam vele.",
+            "solution": "Ich habe gestern lange mit ihr telefoniert.",
+            "explanation": "Ez egy vonzatos ige (Verb mit Präposition): az ige jelentéséhez egy meghatározott elöljárószó és eset (Akkusativ vagy Dativ) tartozik rögzített formában, ezt a párost egységként érdemes megtanulni.",
+            "user_answer": "Ich habe mit ihm angeruft.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s288",
+            "direction": "hu_de",
+            "topic": "Verben mit Präposition",
+            "prompt": "A teának erős citromíze van.",
+            "solution": "Der Tee schmeckt stark nach Zitrone.",
+            "explanation": "Ez egy vonzatos ige (Verb mit Präposition): az ige jelentéséhez egy meghatározott elöljárószó és eset (Akkusativ vagy Dativ) tartozik rögzített formában, ezt a párost egységként érdemes megtanulni.",
+            "user_answer": "Der Tee schmeckt sehr scharf Zitronen.",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "s866",
+            "direction": "hu_de",
+            "topic": "Verben mit Präposition",
+            "prompt": "Egyszerű elgépelésről van szó.",
+            "solution": "Es handelt sich um einen einfachen Tippfehler.",
+            "explanation": "Ez egy vonzatos ige (Verb mit Präposition): az ige jelentéséhez egy meghatározott elöljárószó és eset (Akkusativ vagy Dativ) tartozik rögzített formában, ezt a párost egységként érdemes megtanulni.",
+            "user_answer": "",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s413",
+            "direction": "hu_de",
+            "topic": "Adjektive",
+            "prompt": "A számlán hibás cím szerepel.",
+            "solution": "Die Rechnung enthält eine falsche Adresse.",
+            "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+            "user_answer": "Es gibt fähler adresse auf der Rechnung.",
+            "tier": "incorrect",
+            "points": 0
+          }
+        ],
+        "de_hu_sentences": [
+          {
+            "id": "s839",
+            "direction": "de_hu",
+            "topic": "Verben mit Präposition",
+            "prompt": "Jede Abteilung trägt zum Ergebnis bei.",
+            "solution": "Minden osztály hozzájárul az eredményhez.",
+            "explanation": "Ez egy vonzatos ige (Verb mit Präposition): az ige jelentéséhez egy meghatározott elöljárószó és eset (Akkusativ vagy Dativ) tartozik rögzített formában, ezt a párost egységként érdemes megtanulni.",
+            "user_answer": "",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s358",
+            "direction": "de_hu",
+            "topic": "Adjektive",
+            "prompt": "Im Winter trage ich einen dicken Pullover.",
+            "solution": "Télen vastag pulóvert hordok.",
+            "explanation": "Ez a mondat a(z) \"Adjektive, Personenbeschreibung\" témaköréhez kapcsolódik. Figyeld meg a szórendet és az esetragozást, és vesd össze a saját fordításodat a megoldással: a legtöbb eltérés a névelő/esetválasztásból vagy az igepozícióból adódik.",
+            "user_answer": "Télön kötött pulóvert viselek.",
+            "tier": "partial",
+            "points": 0.5
+          },
+          {
+            "id": "s457",
+            "direction": "de_hu",
+            "topic": "Adverbien und Konnektoren",
+            "prompt": "Dann begann es plötzlich zu regnen.",
+            "solution": "Aztán hirtelen elkezdett esni az eső.",
+            "explanation": "Ez a mondat egy határozószót vagy kötőszót (Konnektor) gyakoroltat, amely két gondolat logikai kapcsolatát (ok, következmény, ellentét, feltétel) fejezi ki, és befolyásolhatja a mellette álló ige helyét a mondatban.",
+            "user_answer": "Azt váratlanul esni kezdett",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s815",
+            "direction": "de_hu",
+            "topic": "Reflexive Verben",
+            "prompt": "Er hat sich zu einem Neuanfang entschlossen.",
+            "solution": "Elhatározta, hogy újrakezdi.",
+            "explanation": "Ez egy visszaható ige (reflexives Verb): a cselekvés visszahat az alanyra, ezért a mondatban egy visszaható névmás (mich, dich, sich, uns, euch, sich) is szerepel, ami a legtöbb esetben tárgyesetben áll.",
+            "user_answer": "",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "s181",
+            "direction": "de_hu",
+            "topic": "Grundverben",
+            "prompt": "Bei diesem Wetter bleibe ich lieber zu Hause.",
+            "solution": "Ilyen időben inkább otthon maradok.",
+            "explanation": "Ez a mondat Perfekt múlt időt gyakoroltat: a `haben` vagy `sein` segédige (mozgást/állapotváltozást kifejező igéknél `sein`, egyébként jellemzően `haben`) ragozott alakja a második helyen, az ige Partizip II alakja pedig a mondat végén áll.",
+            "user_answer": "",
+            "tier": "incorrect",
+            "points": 0
+          }
+        ],
+        "hu_de_vocab": [
+          {
+            "id": "v364",
+            "direction": "hu_de",
+            "topic": "Adjektive",
+            "prompt": "gyors",
+            "solution": "schnell",
+            "explanation": null,
+            "user_answer": "schnell",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v722",
+            "direction": "hu_de",
+            "topic": "Verben mit Präposition",
+            "prompt": "hozzájárulni vmihez",
+            "solution": "beitragen (zu + D)",
+            "explanation": "Alapalakok (Präteritum / Perfekt): trug bei / hat beigetragen. Rögzített vonzat: zu + D.",
+            "user_answer": "",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v208",
+            "direction": "hu_de",
+            "topic": "Grundverben",
+            "prompt": "tanulni",
+            "solution": "lernen",
+            "explanation": "Alapalakok (Präteritum / Perfekt): lernte / hat gelernt.",
+            "user_answer": "lernen",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v125",
+            "direction": "hu_de",
+            "topic": "Stadt und Verkehr",
+            "prompt": "villamos",
+            "solution": "die Straßenbahn",
+            "explanation": "Többes száma: die Straßenbahnen.",
+            "user_answer": "Der Tram",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v959",
+            "direction": "hu_de",
+            "topic": "Redemittel",
+            "prompt": "hagyni vkit vmit csinálni",
+            "solution": "jemanden etwas machen lassen",
+            "explanation": null,
+            "user_answer": "lassen sich ",
+            "tier": "incorrect",
+            "points": 0
+          }
+        ],
+        "de_hu_vocab": [
+          {
+            "id": "v386",
+            "direction": "de_hu",
+            "topic": "Adjektive",
+            "prompt": "müde",
+            "solution": "fáradt",
+            "explanation": null,
+            "user_answer": "kedv",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v148",
+            "direction": "de_hu",
+            "topic": "Alltag und Arbeit",
+            "prompt": "die Freizeit",
+            "solution": "szabadidő",
+            "explanation": null,
+            "user_answer": "szabadidő",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v530",
+            "direction": "de_hu",
+            "topic": "Hobby und Freizeit",
+            "prompt": "der Sport",
+            "solution": "sport",
+            "explanation": "Többes száma: die Sportarten.",
+            "user_answer": "sport",
+            "tier": "correct",
+            "points": 1
+          },
+          {
+            "id": "v833",
+            "direction": "de_hu",
+            "topic": "Adverbien",
+            "prompt": "jedoch",
+            "solution": "azonban",
+            "explanation": null,
+            "user_answer": "",
+            "tier": "incorrect",
+            "points": 0
+          },
+          {
+            "id": "v583",
+            "direction": "de_hu",
+            "topic": "Reise, Hotel, Flughafen",
+            "prompt": "der Rucksack",
+            "solution": "hátizsák",
+            "explanation": "Többes száma: die Rucksäcke.",
+            "user_answer": "hátizsák",
+            "tier": "correct",
+            "points": 1
+          }
+        ]
+      },
+      "score": {
+        "points": 8.5,
+        "max": 20,
+        "percent": 42.5
+      }
+    }
+  ]
+}
