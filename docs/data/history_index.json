@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08",
+  "generated_at": "2026-10-09",
   "days": [
     {
       "date": "2026-10-08",
@@ -69,14 +69,14 @@
       "error_rate": 0.375
     },
     "Grundverben": {
-      "attempts": 5,
-      "incorrect": 1.5,
-      "error_rate": 0.3
+      "attempts": 7,
+      "incorrect": 2.5,
+      "error_rate": 0.35714285714285715
     },
     "Reflexive Verben": {
-      "attempts": 5,
-      "incorrect": 2,
-      "error_rate": 0.4
+      "attempts": 7,
+      "incorrect": 3.0,
+      "error_rate": 0.42857142857142855
     },
     "Trennbare Verben": {
       "attempts": 2,
@@ -84,14 +84,14 @@
       "error_rate": 0.75
     },
     "Adjektive": {
-      "attempts": 9,
-      "incorrect": 5,
-      "error_rate": 0.5555555555555556
+      "attempts": 13,
+      "incorrect": 7.5,
+      "error_rate": 0.5769230769230769
     },
     "Wohnen": {
       "attempts": 1,
       "incorrect": 0,
-      "error_rate": 0
+      "error_rate": 0.0
     },
     "Körper und Gesundheit": {
       "attempts": 4,
@@ -99,14 +99,14 @@
       "error_rate": 0.375
     },
     "Redemittel": {
-      "attempts": 7,
-      "incorrect": 2.5,
-      "error_rate": 0.35714285714285715
+      "attempts": 8,
+      "incorrect": 3.5,
+      "error_rate": 0.4375
     },
     "Verben mit Präposition": {
-      "attempts": 3,
-      "incorrect": 1,
-      "error_rate": 0.3333333333333333
+      "attempts": 8,
+      "incorrect": 4,
+      "error_rate": 0.5
     },
     "Präpositionen": {
       "attempts": 2,
@@ -114,9 +114,9 @@
       "error_rate": 0.25
     },
     "Adverbien und Konnektoren": {
-      "attempts": 3,
-      "incorrect": 0,
-      "error_rate": 0
+      "attempts": 4,
+      "incorrect": 1,
+      "error_rate": 0.25
     },
     "Konnektoren und Satzbau": {
       "attempts": 3,
@@ -125,13 +125,13 @@
     },
     "Schwache Nomen": {
       "attempts": 2,
-      "incorrect": 1,
+      "incorrect": 1.0,
       "error_rate": 0.5
     },
     "Verkehr": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1
+      "error_rate": 1.0
     },
     "Genitiv": {
       "attempts": 1,
@@ -139,14 +139,14 @@
       "error_rate": 0.5
     },
     "Alltag und Arbeit": {
-      "attempts": 2,
+      "attempts": 3,
       "incorrect": 2,
-      "error_rate": 1
+      "error_rate": 0.6666666666666666
     },
     "Modalverben und Wendungen": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1
+      "error_rate": 1.0
     },
     "Tagesablauf": {
       "attempts": 2,
@@ -154,14 +154,29 @@
       "error_rate": 0.5
     },
     "Hobby und Freizeit": {
-      "attempts": 2,
+      "attempts": 3,
       "incorrect": 2,
-      "error_rate": 1
+      "error_rate": 0.6666666666666666
     },
     "Essen und Trinken": {
       "attempts": 1,
       "incorrect": 1,
-      "error_rate": 1
+      "error_rate": 1.0
+    },
+    "Stadt und Verkehr": {
+      "attempts": 1,
+      "incorrect": 1,
+      "error_rate": 1.0
+    },
+    "Adverbien": {
+      "attempts": 1,
+      "incorrect": 1,
+      "error_rate": 1.0
+    },
+    "Reise, Hotel, Flughafen": {
+      "attempts": 1,
+      "incorrect": 0,
+      "error_rate": 0.0
     }
   }
 }
