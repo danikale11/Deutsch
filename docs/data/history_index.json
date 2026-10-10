@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-10",
   "days": [
     {
       "date": "2026-10-08",
@@ -58,7 +58,7 @@
       }
     }
   ],
-  "streak_days": 1,
+  "streak_days": 0,
   "total_days_practiced": 4,
   "total_attempts": 4,
   "average_percent": 49.375,
